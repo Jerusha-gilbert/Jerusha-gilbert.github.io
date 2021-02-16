@@ -1,0 +1,117 @@
+<html>
+<head>
+	<link rel="icon" href="boatlogo.jfif" type="image/gif" sizes="16x16">
+  <title>BoAt AAVANTE</title>
+	<link rel="stylesheet" type="text/css" href="frofest.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body id="bod">
+	<div class="bg-img">
+  <div class="container">
+    <div class="topnav">
+    	<img src="boat.png">
+      <a href="#home">HOME</a>
+      <a href="#Trending">TRENDING</a>
+      <a href="#NewArrivals">NEW ARRIVALS</a>
+      <a href="#gallery">GALLERY</a>
+       <input type="text" placeholder="Search..">
+       <button id="b" style="border-radius:20px" onclick="darkMode()">Mode</button>
+    </div>
+     <p id="paraboat" style="margin-top: 650px; margin-left: 15px;font-size: 75px; font-weight:bolder;font-family: cursive;">bo<span style="color: #bf0404">A</span>t</p>
+     <p style="margin-left: 140px; font-size: 70px; font-weight: bolder; font-family:serif;"><span style="color: red">AA</span>V<span style="color: red">A</span>NTE B<span style="color: red">A</span>R</p>
+  </div>
+</div>
+<div>
+	<p style="height: 100px; display: inline-block; width: 100%; font-size:30px; background-color: #e3dfde; margin:0px 10px 0px 10px; padding-bottom: 0px;text-align: center;" >Presenting you the brand new<br> AAVENTE series of Bluetooth speakers!!!</p>
+	
+</div>
+<div class="para" style="background-color: #67676b; margin: 0px 10px 0px 10px; padding-top: 0px;">
+	<div class="pics" style="max-width:500px; background-color: #67676b; display: inline-block;margin-left: 35%;">
+  <img class="mySlides" src="aavante1200.png" style="width:100%;">
+  <img class="mySlides" src="aavante-bar-1190 (2).png" style="width:100%">
+  <img class="mySlides" src="aavante-bar-1250.png" style="width:100%">
+  <img class="mySlides" src="aavante-bar-1500.png" style="width: 100%;">
+</div>
+
+	</div>
+	<div style="background-color: #e3dfde;">
+		<video  style="display: inline-block; margin: 0px 10px 0px 10px;" width="100%" height="100%" controls>
+  <source src="amazonaavante.mp4" type="video/mp4">
+    </video>
+    <p style="text-align: center; font-size: 30px; font-weight: bold; font-family: cursive; background-color: #e3dfde;margin: 0px 10px 0px 10px;">Hurry up and Avail<br> Exciting EMI offers!</p>
+    <button style="background-color: #080242;color: #ffffff; margin-left: 49%;">BUY NOW!</button>
+	</div>
+
+<div style="background-color: #e3dfde; margin-top: 0px;height: 530px;">
+		<div class="w3-content w3-section" style="max-width:500px; display: inline-block;width:50%;float:left;margin-left:10px;height:100%; ">
+  <img class="mySlide" src="spec.jpg" style="width:100%">
+  <img class="mySlide" src="speaker.jpg" style="width:100%">
+  <img class="mySlide" src="speakerr.jpg" style="width:100%">
+	</div>
+   <p><br><br><br><br>
+   	<ul style="text-align: center;list-style-type:none;font-size: 30px;font-weight: bold; margin-top: 0px">
+   		<a href="#AAVANTE BAR 1500"><li style="text-decoration: none;">AAVANTE BAR 1500</li></a><br>
+   		<a href="#AAVANTE BAR 1190"><li style="text-decoration: none;">AAVANTE BAR 1190</li></a><br>
+   		<a href="#AAVANTE BAR 1250"><li style="text-decoration: none;">AAVANTE BAR 1250</li></a><br>
+   		<a href="#AAVANTE BAR1160"><li style="text-decoration: none;">AAVANTE BAR 1160</li></a><br>
+   		<a href="#AAVANTE BAR 1900D"><li style="text-decoration: none;">AAVANTE BAR 1900D</li></a>
+   	</ul>
+   </p> 
+</div>
+<section style="background-color: #e3dfde;margin-top: 0px;">
+<h1 style="font-family: sans-serif;">CONTACT DETAILS</h1>
+<div>
+	
+
+<address style="text-align: center; font-weight: bolder; font-size: 20px;">
+Visit us at:<br>
+<a href="https://www.boat-lifestyle.com/blogs/news/co-founder-aman-gupta-has-plugged-into-a-new-zone-with-boat">boAt</a><br>
+boat-lifestyle.com<br>
+</address>
+</section>
+</div>
+<script>
+var myIndex = 0;
+anime();
+
+function anime() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(anime, 2000); // Change image every 2 seconds
+}
+
+var myIndex1 = 0;
+anime1();
+
+function anime1() {
+  var i;
+  var x = document.getElementsByClassName("mySlide");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex1++;
+  if (myIndex1 > x.length) {myIndex1 = 1}    
+  x[myIndex1-1].style.display = "block";  
+  setTimeout(anime1, 2000); // Change image every 2 seconds
+}
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  
+}
+</script>
+</body>
